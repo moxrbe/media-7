@@ -87,7 +87,7 @@ a{
 
 .header_info {
     min-height: 700px;
-    background: url(../img/Header.png) center no-repeat;
+    background: url(../img/Header.png) center center / cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -140,6 +140,14 @@ main{
 }
 .product{
     display: flex;
+}
+
+.product_1_img{
+    width: 100%;
+}
+
+.product_img{
+    width: 100%;
 }
 .product_1{
     display: flex;
@@ -253,7 +261,7 @@ left: 345px;
 /* footer start */
 .footer{
     background: #282828;
-   
+   padding: 0 15px;
 }
 .footer_container{
     display: flex;
